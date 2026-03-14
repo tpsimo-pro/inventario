@@ -1,0 +1,138 @@
+/* Shared page styles */
+.page {
+  animation: fadeIn 0.3s ease;
+}
+
+.page-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.page-title {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.page-subtitle {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin: 0.3rem 0 0;
+}
+
+/* Toolbar */
+.page-toolbar {
+  margin-bottom: 1.25rem;
+}
+
+.search-box {
+  position: relative;
+  max-width: 360px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.85rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.6rem 0.9rem 0.6rem 2.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-size: 0.875rem;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.search-input:focus {
+  border-color: var(--accent);
+}
+
+/* Actions */
+.cell-actions {
+  display: flex;
+  gap: 0.4rem;
+  justify-content: center;
+}
+
+.action-btn {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  padding: 0.35rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  display: flex;
+  font-size: 0.95rem;
+  transition: all 0.15s;
+}
+.action-btn.edit:hover {
+  background: rgba(124, 58, 237, 0.1);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+.action-btn.delete:hover {
+  background: rgba(239, 68, 68, 0.1);
+  color: var(--status-danger);
+  border-color: var(--status-danger);
+}
+.action-btn.activate {
+  color: var(--status-success);
+}
+.action-btn.activate:hover {
+  background: rgba(16, 185, 129, 0.1);
+  border-color: var(--status-success);
+}
+
+/* Product cell */
+.cell-product {
+  display: flex;
+  flex-direction: column;
+}
+.cell-name {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.cell-sku {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* Modal form */
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}

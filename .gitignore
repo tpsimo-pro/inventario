@@ -1,0 +1,136 @@
+# Python stuff
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+.pytest_cache/
+cover/
+*.mo
+*.pot
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.webassets-cache
+.scrapy
+docs/_build/
+.pybuilder/
+target/
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+.pdm-python
+.pdm-build/
+.pixi
+__pypackages__/
+celerybeat-schedule
+celerybeat.pid
+*.sage.py
+env.bak/
+venv.bak/
+.spyderproject
+.spyproject
+.ropeproject
+/site
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
+.ruff_cache/
+.pypirc
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+
+# Database for tests
+inventario.db
+
+# JavaScript / Node.js
+node_modules/
+jspm_packages/
+public/build/
+.npm
+.eslintcache
+.stylelintcache
+.node_repl_history
+.parcel-cache
+*.tgz
+
+# Build and Distribution
+build/
+dist/
+
+# Environments / Sensitive
+.env
+.env.*
+.envrc
+.venv
+env/
+venv/
+ENV/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Caches
+.cache
+
+# IDE / Editor settings
+.idea/
+.vscode/
+.abstra/
+.cursorignore
+.cursorindexingignore
+
+# OS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Misc
+.history/
+.vs/
